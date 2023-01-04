@@ -1,0 +1,80 @@
+.input-container {
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    position:relative;
+    display: flex;
+}
+
+.icon {
+    padding: 10px;
+    background: rgba(138, 247, 243, 0.799);
+    color:black;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field {
+    border: 2.5px solid black;
+}
+
+.btn {
+    background-color: rgba(138, 247, 243, 0.799);
+    color: black;
+    padding: 15px 20px;
+    border: 2.5px solid black;
+    cursor: pointer;
+    width: 28%;
+    opacity: 0.9;
+    position: relative;
+    margin-left: 38%;
+    display: block;
+}
+
+.btn:hover {
+    opacity: 12;
+    transition: .4s;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10%;
+    padding-bottom: 5%;
+    text-decoration: underline;
+    font-size: 50px;
+    position: relative;
+    color: rgba(70, 59, 56, 0.869);
+}
+
+.copyright {
+    text-align: center;
+}
+
+.btns{
+    background-color: rgba(70, 59, 56, 0.869);
+    color: rgb(235, 217, 217);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 18px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-bottom: 25px;
+    letter-spacing: 3.5px;
+}
+.btns:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.copyright{
+    padding-top: 5em;
+    color: rgba(70, 59, 56, 0.869);
+}
